@@ -51,5 +51,5 @@ jobs:
       - name: Upload Flatpak artifact
         uses: actions/upload-artifact@v4
         with:
-          name: irssi-flatpak
+          name: irssi.flatpak
           path: irssi.flatpak
